@@ -1,0 +1,15 @@
+.yes,
+.no {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman";
+}
+
+.yes {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.no {
+  background-color: #ffff00;
+}
