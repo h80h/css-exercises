@@ -14,8 +14,8 @@ html {
   box-sizing: border-box;
   display: grid;
   gap: 15px;
-  grid-template-columns: repeat(4, 220px);
-  grid-template-rows: repeat(8, 65px);
+  grid-template-columns: 220px 660px;
+  grid-template-rows: 65px 65px 325px 65px;
 }
 
 .container div {
@@ -34,19 +34,17 @@ html {
 
 .sidebar {
   background-color: #005B94;
-  grid-column: 1;
   grid-row: 2 / -2;
 }
 
 .nav {
   background-color: #642cde;
-  grid-column: 2 / -1;
+  grid-column: 2;
 }
 
 .article {
   background-color: #7E1DC3;
-  grid-column: 2 / -1;
-  grid-row: span 5 / -2;
+  grid-column: 2;
 }
 
 .footer {
